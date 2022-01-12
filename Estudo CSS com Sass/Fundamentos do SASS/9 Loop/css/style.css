@@ -1,0 +1,213 @@
+.rede-facebook {
+  background-image: url("img/facebook.png");
+}
+
+.rede-twitter {
+  background-image: url("img/twitter.png");
+}
+
+.rede-snapchat {
+  background-image: url("img/snapchat.png");
+}
+
+.rede-instagram {
+  background-image: url("img/instagram.png");
+}
+
+.tyle-1 {
+  font-size: 16px;
+}
+
+.tyle-2 {
+  font-size: 32px;
+}
+
+.tyle-3 {
+  font-size: 48px;
+}
+
+.tyle-4 {
+  font-size: 64px;
+}
+
+.tyle-5 {
+  font-size: 80px;
+}
+
+.tyle-6 {
+  font-size: 96px;
+}
+
+.porcento-1 {
+  width: 8.3333333333%px;
+}
+
+.porcento-2 {
+  width: 16.6666666667%px;
+}
+
+.porcento-3 {
+  width: 25%px;
+}
+
+.porcento-4 {
+  width: 33.3333333333%px;
+}
+
+.porcento-5 {
+  width: 41.6666666667%px;
+}
+
+.porcento-6 {
+  width: 50%px;
+}
+
+.porcento-7 {
+  width: 58.3333333333%px;
+}
+
+.porcento-8 {
+  width: 66.6666666667%px;
+}
+
+.porcento-9 {
+  width: 75%px;
+}
+
+.porcento-10 {
+  width: 83.3333333333%px;
+}
+
+.porcento-11 {
+  width: 91.6666666667%px;
+}
+
+.grid-1 {
+  width: 80px;
+}
+
+.grid-2 {
+  width: 180px;
+}
+
+.grid-3 {
+  width: 280px;
+}
+
+.grid-4 {
+  width: 380px;
+}
+
+.grid-5 {
+  width: 480px;
+}
+
+.grid-6 {
+  width: 580px;
+}
+
+.grid-7 {
+  width: 680px;
+}
+
+.grid-8 {
+  width: 780px;
+}
+
+.grid-9 {
+  width: 880px;
+}
+
+.grid-10 {
+  width: 980px;
+}
+
+.grid-11 {
+  width: 1080px;
+}
+
+div {
+  width: 33%;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.modal {
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5), 15px 15px 0 0 rgba(0, 0, 0, 0.5), 20px 20px 0 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5), 15px 15px 0 0 rgba(0, 0, 0, 0.5), 20px 20px 0 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5), 15px 15px 0 0 rgba(0, 0, 0, 0.5), 20px 20px 0 0 rgba(0, 0, 0, 0.5);
+}
+.modal h1 {
+  color: blue;
+  font-family: monospace;
+  margin-bottom: 60px;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 1;
+}
+.modal h1::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 4px;
+  background: yellow;
+}
+@media (max-width: 600px) {
+  .modal h1 {
+    color: #84e;
+    font-size: 2em;
+  }
+}
+.modal p {
+  font-size: 1.2em;
+  font-family: monospace;
+  font-style: italic;
+  line-height: 1.4;
+  max-width: 400px;
+}
+@media (max-width: 600px) {
+  .modal p {
+    font-size: 0.6em;
+  }
+}
+.modal a {
+  display: block;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+ul {
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 2.25em;
+}
+ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  background: blue;
+  color: white;
+  font-size: 0.4444444444em;
+}
+ul li a:hover, ul li a.active {
+  background: rgba(0, 0, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

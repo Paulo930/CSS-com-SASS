@@ -1,0 +1,21 @@
+p {
+  color: red;
+  background: gray;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+}
+
+div {
+  background: #999;
+  height: 200px;
+  width: 200px;
+}
+div a {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
